@@ -6,6 +6,6 @@ export default class extends Event {
     async invoke (msg) {
         if (msg.author.bot) return;
     
-        await msg.reply('Hi')
+        await msg.reply('Hi');
     }
 }
